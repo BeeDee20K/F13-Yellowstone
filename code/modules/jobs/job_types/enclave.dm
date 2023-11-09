@@ -470,7 +470,7 @@
 
 //Regular
 /datum/job/enclave/enclavespy
-	title = "Enclave Regular"
+	title = "Enclave Marine"
 	flag = F13USPRIVATE
 	total_positions = 4
 	spawn_positions = 4
