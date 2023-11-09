@@ -1,0 +1,89 @@
+{
+	"map_name": "The Wasteland",
+	"map_path": "map_files/Yellowstone",
+	"map_file": [
+		"Dungeons.dmm",
+		"Casper-Below.dmm",
+		"Casper.dmm",
+		"Casper-Upper.dmm",
+		"Casper-Upper-2.dmm",
+		"Bighorn-Buffalo-Cheyenne-Harrison.dmm",
+		"Bighorn-Buffalo-Cheyenne-Harrison-Upper.dmm"
+	],
+	"station_ruin_budget":0,
+	"space_ruin_levels":0,
+	"space_empty_levels":0,
+	"shuttles": {
+		"cargo":"cargo_pahrump",
+		"emergency": "emergency_pahrump",
+		"ferry": "ferry_fancy"
+	},
+	"traits":[
+		{
+			"Gravity": true,
+			"Baseturf": "/turf/open/indestructible/ground/inside/mountain",
+			"No Parallax": true,
+			"Linkage" : null,
+			"Name": "Dungeons"
+		},
+		{
+			"Gravity": true,
+			"Dungeons": true,
+			"Baseturf": "/turf/open/indestructible/ground/inside/mountain",
+			"Up": 1,
+			"No Parallax": true,
+			"Linkage" : "Cross",
+			"Name": "Lower Casper"
+		},
+		{
+			"Gravity": true,
+			"Baseturf": "/turf/open/indestructible/ground/inside/mountain",
+			"Station": 1,
+			"Surface": true,
+			"Up": 1,
+			"Down": -1,
+			"No Parallax": true,
+			"Linkage" : "Cross",
+			"Name": "Casper"
+		},
+		{
+			"Gravity": true,
+			"Baseturf": "/turf/open/transparent/openspace",
+			"Up": 1,
+			"Down": -1,
+			"No Parallax": true,
+			"Linkage" : "Cross",
+			"Above": true,
+			"Name": "Upper Casper"
+		},
+		{
+			"Gravity": true,
+			"Baseturf": "/turf/open/transparent/openspace",
+			"Down": -1,
+			"No Parallax": true,
+			"Linkage" : "Cross",
+			"Above": true,
+			"Name": "Upper Casper 2"
+		},
+		{
+			"Gravity": true,
+			"Baseturf": "/turf/open/indestructible/ground/inside/mountain",
+			"Station": 1,
+			"Surface": true,
+			"Up": 1,
+			"No Parallax": true,
+			"Linkage" : "Cross",
+			"Name": "Major Zone"
+		},
+		{
+			"Gravity": true,
+			"Baseturf": "/turf/open/transparent/openspace",
+			"Down": -1,
+			"No Parallax": true,
+			"Linkage" : "Cross",
+			"Above": true,
+			"Name": "Upper Major Zone"
+		}
+	],
+	"minetype": "none"
+}
